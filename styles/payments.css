@@ -1,0 +1,328 @@
+body{
+  margin: 0;
+}
+p, h1, h3, span, button{
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.desktop-nav{
+  width: 150px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 40px 0px 0px 40px;
+  background-color: rgb(0, 27, 43);
+  z-index: 100;
+}
+.mobile-nav{
+  display: none;
+}
+.logo{
+  font-size: 20px;
+  color: rgb(54, 149, 204);
+  margin-bottom: 150px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+.logo-link{
+  text-decoration: none;
+}
+.nav-links{
+  text-decoration: none;
+  color: rgb(54, 149, 204);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 50px;
+  font-size: 13px;
+  align-items: center;
+  display: flex;
+}
+.nav-links ion-icon{
+  margin-right: 10px;
+}
+.nav-links:hover{
+  color: rgb(182, 182, 182);
+}
+.contact{
+  font-size: 13px;
+  margin: 50px 0px 10px 20px;
+  color: rgb(54, 149, 204);
+}
+.email-container{
+  display: flex;
+  align-items: center;
+  margin-left: -20px;
+}
+.email-container ion-icon{
+  margin-right: 5px;
+}
+.Email{
+  font-size: 11px;
+  color: rgb(54, 149, 204);
+}
+ion-icon{
+  color: rgb(54, 149, 204);
+  font-size: 16px;
+}
+
+
+
+
+
+/*****************MAIN***********************/
+main{
+  margin: 0px 0px 0px 190px;
+}
+.hero-nav{
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 41px 90px 45px 49px;
+  position: fixed;
+  width: 80%;
+  align-items: center;
+  background-color: rgb(0, 27, 43);
+  z-index: 100;
+}
+.payment-page{
+  color: rgb(54, 149, 204); 
+}
+.hero-body{
+  padding: 150px 50px 0px 50px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.history, .withdrawl{
+  text-transform: capitalize;
+  color: rgb(0, 27, 43);
+  width: 50%;
+  text-align: center;
+  padding: 10px 0px;
+  border: 1px solid rgb(197, 197, 197);
+  background-color: white;
+  cursor: pointer;
+}
+.withdrawl-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+.affiliate-earnings, .task-earnings{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(0, 27, 43);
+  color:  rgb(54, 149, 204);
+}
+.affiliate, .task{
+  margin-bottom: 10px;
+}
+.affiliate-balance, .task-balance {
+  font-size: 35px;
+  margin-bottom: 45px;
+}
+.withdrawl-btn{
+  position: absolute;
+  padding: 12px 30px;
+  border-style: none;
+  border-radius: 20px;
+  margin: -30px 0px 0px 350px;
+  background-color: rgb(54, 149, 204);
+  color: rgb(0, 27, 43);
+  z-index: 30;
+}
+.transfer-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.payment-form{
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 20px;
+  margin-right: 20px;
+  width: 50%;
+  display: none;
+}
+.open{
+  display: flex;
+}
+.name-of-bank, .amount, .account-number{
+  margin-bottom: 10px;
+  color: rgb(0, 27, 43);
+}
+.textbox{
+  border: 1px solid rgb(189, 189, 189);
+  padding: 10px 10px;
+  border-radius: 10px;
+  width: 95%;
+  outline: none;
+  margin-bottom: 20px;
+}
+.submit-btn{
+  margin-top: 10px;
+  border: none;
+  padding: 10px 40px;
+  color: white;
+  background-color: rgb(0, 27, 43);
+  border-radius: 20px;
+}
+.terms-and-condition{
+  padding: 30px;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 50%;
+}
+.terms{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: rgb(0, 27, 43);
+}
+.condition{
+  margin-bottom: 10px;
+}
+.history-container{
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.hidden{
+  display: none;
+}
+.history-tab, .history-tab1{
+  margin: 0px 20px;
+  grid-template-columns: 1fr 2fr 1fr 2fr;
+  display: grid;
+}
+.no, .request-date, .amount-tab, .status{
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(197, 197, 197);
+}
+.no1, .request-date1, .amount1, .status1{
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(197, 197, 197);
+}
+.no{
+  border-top-left-radius: 10px;
+}
+.status{
+  border-top-right-radius: 10px;
+}
+
+
+
+@media (max-width: 375px){
+  .desktop-nav{
+    display: none;
+  }
+  .mobile-nav{
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 100;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    background-color:rgb(0, 27, 43);
+    height: 40px;
+    justify-content: space-around;
+  }
+  .nav-links{
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    padding: 0;
+    justify-content: center;
+  }
+  .nav-links ion-icon{
+    font-size: 20px;
+  }
+  .nav-links span{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    display: none;
+  } 
+  .logo, .logo-link{
+    display: none;
+  }
+  .contact{
+    display: none;
+  }
+  .email-container{
+    display: none;
+  }
+  
+  main{
+    margin: 0;
+  }
+  .hero-body{
+    padding: 0;
+    padding-top: 150px;
+    width: 80%;
+    margin: auto;
+  }
+  .hero-nav{
+    padding-left: 40px;
+  }
+  .withdrawl-container{
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .transfer-container{
+    flex-direction: column;
+    width: 100%;
+  }
+  .withdrawl-btn{
+    position: relative;
+    left: 55%;
+    bottom: 0;
+    margin: 0;
+  }
+  .payment-form{
+    width: 85%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .textbox{
+    width: 92%;
+  }
+  .terms-and-condition{
+    margin: 0;
+    width: 80%;
+    padding: 20px;
+  }
+  .terms{
+    font-size: 20px;
+  }
+  .condition{
+    text-align: justify;
+    font-size: 13px;
+  }
+  .history-tab{
+    margin: 0;
+  }
+  .header{
+    margin-bottom: 20px;
+  }
+  .withdrawl-page{
+    margin-bottom: 70px;
+  }
+}

@@ -1,0 +1,148 @@
+body{
+  margin: 0;
+}
+p, h1, h3, span, button{
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:  rgb(0, 27, 43);
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.left{
+  background-color: rgb(0, 27, 43);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 50%;
+}
+.right{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+}
+.welcome{
+  position: relative;
+  top: 30%;
+  left: 100px;
+  font-size: 50px;
+  color:  rgb(0, 85, 134);
+}
+.earnify{
+  color:  rgb(54, 149, 204);
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.logo-topic{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.scrap ion-icon{
+  color: rgb(0, 27, 43);
+  position: absolute;
+  margin-top: 15px;
+}
+.login-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(0, 27, 43, 0.363);
+  margin: auto;
+  width: 70%;
+  padding: 30px;
+  border-radius: 10px;
+}
+.form{
+  width: 90%;
+}
+.login{
+  text-transform: uppercase;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.textbox{
+  width: 95%;
+  margin-bottom: 30px;
+  padding: 10px 10px;
+  outline: none;
+}
+.textbox::placeholder{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.username, .password{
+  margin-bottom: 10px;
+}
+
+.submit-btn{
+  border: none;
+  padding: 10px 40px;
+  color: white;
+  background-color: rgb(0, 27, 43);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  cursor: pointer
+}
+.register-link-btn{
+  border:rgb(0, 27, 43);
+  background-color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+
+
+@media (max-width: 375px){
+  .container{
+    grid-template-columns: 1fr;
+  }
+  .left{
+    display: none;
+  }
+  .right{
+    width: 80%;
+    margin: auto;
+  }
+  .login-form{
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 0;
+  }
+  .textbox{
+    margin: 0px 20px;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .login{
+    text-align: center;
+    padding: 20px ;
+    margin-bottom: 0;
+  }
+  .username, .password{
+    padding:  0px 20px;
+  }
+  .submit-btn{
+    margin-left: 20px;
+  }
+  .register-link{
+    margin: 0px 20px 20px 20px;
+  }
+  .back{
+    margin-left: 0;
+  }
+  
+}

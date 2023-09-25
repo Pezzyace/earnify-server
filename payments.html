@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/payments.css">
+  <title>Payments | Earnify</title>
+</head>
+<body>
+  <div class="container">
+    <nav>
+    
+      <div class="desktop-nav">
+        <a href="index.html" class="logo-link">
+          <p class="logo">Earnify</p>
+        </a>
+        <a href="index.html" class="nav-links">
+          <ion-icon name="grid-outline"></ion-icon>
+          <span>Dashboard</span>
+        </a>
+        <a href="tasks.html" class="nav-links">
+          <ion-icon name="today-outline"></ion-icon>
+          <span>Tasks</span>
+        </a>
+        <a href="refferals.html" class="nav-links">
+          <ion-icon name="people-outline"></ion-icon>
+          <span>Affiliates</span>
+        </a>
+        <a href="payments.html" class="nav-links">
+          <ion-icon name="card-outline"></ion-icon>
+          <span>Payments</span>
+        </a>
+        </a>
+        <p class="contact">Contact us</p>
+        <div class="email-container">
+          <ion-icon name="mail-outline"></ion-icon>
+          <p class="Email">help.future@gmail.com</p>
+        </div>
+      </div>
+      
+  
+      <div class="mobile-nav">
+        <a href="index.html" class="logo-link">
+          <p class="logo">Earnify</p>
+        </a>
+        <a href="index.html" class="nav-links">
+          <ion-icon name="grid-outline"></ion-icon>
+          <span>Dashboard</span>
+        </a>
+        <a href="tasks.html" class="nav-links">
+          <ion-icon name="today-outline"></ion-icon>
+          <span>Tasks</span>
+        </a>
+        <a href="refferals.html" class="nav-links">
+          <ion-icon name="people-outline"></ion-icon>
+          <span>Affiliates</span>
+        </a>
+        <a href="payments.html" class="nav-links">
+          <ion-icon name="card-outline"></ion-icon>
+          <span>Payments</span>
+        </a>
+        </a>
+        <p class="contact">Contact us</p>
+        <div class="email-container">
+          <ion-icon name="mail-outline"></ion-icon>
+          <p class="Email">help.future@gmail.com</p>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="hero-nav">
+        <p class="payment-page">Payments</p>
+      </section>
+      <section class="hero-body">
+        <div class="header">
+          <button class="withdrawl" id="withdrawl">Withdrawl</button>
+          <button class="history" id="history">History</button>
+        </div>
+
+        <div class="withdrawl-page" id="withdrawl-page">
+          <div class="withdrawl-container" id="withdrawl-container">
+            <div class="affiliate-earnings">
+              <p class="affiliate">Affiliate Earnings</p>
+              <p class="affiliate-balance">N259,390</p>
+              <button class="withdrawl-btn" id="withdrawl-btn">Withdrawl</button>
+            </div>
+            <div class="task-earnings">
+              <p class="task">Tasks Earnings</p>
+              <p class="task-balance">N259,390</p>
+              <button class="withdrawl-btn" id="withdrawl-btn">Withdrawl</button>
+            </div>
+          </div>
+          <div class="transfer-container" id="transfer-container">
+            <div class="payment-form" id="payment-form">
+              <p class="name-of-bank">Bank Name</p>
+              <input type="text" class="textbox">
+              <p class="account-number">Account Number</p>
+              <input type="text" class="textbox">
+              <p class="amount">Amount</p>
+              <input type="text" class="textbox">
+              <button class="submit-btn">Submit</button>
+            </div>
+            <div class="terms-and-condition">
+              <p class="terms">Terms and condition</p>
+              <p class="condition">
+                Affiliate earnings can be withdrawn every friday from 11am - 1pm. Failure to comply with the time means your withdrawl will be with held till next week.
+              </p>
+              <p class="condition">
+                Task earnings can only be withdrawn on the last day of the month from 11am to 1pm; Failure to comply with the time means your withdrawl will be with held till next month.
+              </p>
+              <p class="condition">
+                Minimum withdrawl is N15,000 for both Affiliate and Task Earnings.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="history-container hidden" id="history-container">
+          <div class="history-tab">
+            <span class="no">S/N</span>
+            <span class="request-date">Date</span>
+            <span class="amount-tab">Amount</span>
+            <span class="status">Status</span>
+          </div>
+          <div class="history-tab1">
+            <span class="no1"></span>
+            <span class="request-date1"></span>
+            <span class="amount1"></span>
+            <span class="status1"></span>
+          </div>
+        </div>
+        
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="js/payment.js"></script>
+</body>
+</html>

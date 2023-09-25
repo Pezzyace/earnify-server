@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/profile.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <a href="index.html" class="logo-link">
+        <p class="logo">Earnify</p>
+      </a>
+      <a href="index.html" class="nav-links">
+        <ion-icon name="grid-outline"></ion-icon>
+        <span>Dashboard</span>
+      </a>
+      <a href="tasks.html" class="nav-links">
+        <ion-icon name="today-outline"></ion-icon>
+        <span>Tasks</span>
+      </a>
+      <a href="refferals.html" class="nav-links">
+        <ion-icon name="people-outline"></ion-icon>
+        <span>Refferals</span>
+      </a>
+      <a href="payments.html" class="nav-links">
+        <ion-icon name="card-outline"></ion-icon>
+        <span>Payments</span>
+      </a>
+      </a>
+      <p class="contact">Contact us</p>
+      <div class="email-container">
+        <ion-icon name="mail-outline"></ion-icon>
+        <p class="Email">help.future@gmail.com</p>
+      </div>
+    </nav>
+    <main>
+      <section class="hero-nav">
+        <a href="index.html">
+          <ion-icon name="chevron-back-outline"></ion-icon> 
+        </a>
+        <p class="profile-page">Profile</p>
+      </section>
+      <div class="hero-body">
+
+        <img src="images/01.jpg" class="profile-pic" alt="">
+        <p class="username-head">Pezzyace</p>
+
+        <div class="edit-profile-container">
+          <header>
+            <button class="about-tab" id="about-tab">About</button>
+            <button class="password-tab" id="password-tab">Password</button>
+          </header>
+
+          <form action="validation" class="form" id="form">
+
+            <p class="name">Full Name</p>
+            <input type="text" name="" class="textbox" id="">
+    
+            <p class="username">Username</p>
+            <input type="text" name="" class="textbox" id="">
+    
+            <p class="email">Email Address</p>
+            <input type="email" name="" class="textbox" id="">
+    
+            <p class="phone-number">Phone-number</p> 
+            <input type="tel" name="" class="textbox" id="">
+
+            <p class="state">State</p> 
+            <input type="text" name="" class="textbox" id="">
+
+
+    
+            <button class="submit-btn">Submit</button> 
+          </form>
+
+          <form action="validation" class="password-form hidden" id="password-form">
+
+            <p class="password">Password</p>
+            <input type="password" name="" class="textbox" id="">
+            
+            <p class="change-password">Change Password</p>
+            <input type="password" name="" class="textbox" id="">
+
+            <button class="submit-btn">Submit</button> 
+          </form>
+        </div>
+
+        
+        
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="js/profile.js"></script>
+
+</body>
+</html>
